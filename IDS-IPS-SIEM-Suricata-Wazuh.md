@@ -717,27 +717,4 @@ Cet atelier permet de mettre en place une **mini-infrastructure SOC** complète 
 
 ---
 
-## Guide ajout des screenshots
-
-Pour ajouter tes captures d'écran sur GitHub :
-
-1. Crée un dossier `images/` à la racine de ton repo
-2. Upload chaque screen avec le nom correspondant :
-
-| Fichier | Contenu |
-|---------|---------|
-| `images/01-suricata-ping-ok.png` | Pings connectivité Suricata |
-| `images/02-suricata-version.png` | `suricata --build-info` |
-| `images/03-suricata-config-ok.png` | Config validée `successfully loaded` |
-| `images/04-suricata-rules.png` | 48 703 règles téléchargées |
-| `images/05-suricata-running.png` | `All AFP capture threads are running` |
-| `images/06-suricata-alert.png` | Alerte dans `fast.log` et `eve.json` |
-| `images/07-wazuh-dashboard.png` | Dashboard Wazuh connecté |
-| `images/08-wazuh-agent-running.png` | Agent `active (running)` sur Suricata |
-| `images/09-wazuh-agent-active.png` | Agent SURICATA vert dans Agents Management |
-| `images/10-wazuh-alert-2100498.png` | Alerte SID 2100498 dans Discover |
-| `images/11-wazuh-alert-custom.png` | Règle custom SID 1000001 dans Discover |
-
----
-
 *Compte rendu rédigé à l'issue de l'atelier du 26 février 2026 — Environnement lab Proxmox `monlab.local`*
